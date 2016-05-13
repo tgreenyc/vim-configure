@@ -67,3 +67,6 @@ let g:syntastic_java_javac_config_file_enabled = 1
 " Golang syntastic configuration
 let g:syntastic_go_checkers = ['golint', 'govet', 'errcheck']
 let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['go'] }
+
+" Enable code folding with zo/zc based on language syntax.
+setlocal foldmethod=syntax
