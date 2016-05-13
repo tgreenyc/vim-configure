@@ -70,3 +70,4 @@ let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['go'] }
 
 " Enable code folding with zo/zc based on language syntax.
 setlocal foldmethod=syntax
+set nofoldenable
